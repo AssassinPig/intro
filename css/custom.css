@@ -1,0 +1,157 @@
+.main {
+	width: 100%;	
+	padding-top: 64px;
+}
+
+.content_item1 {
+	height: 1000px;
+	width: 100%;
+	background-color: #e9e7ef;
+}
+.content_item2 {
+	height: 1000px;
+	width: 100%;
+	//background-color: #f0f0f4;
+}
+.content_item3 {
+	height: 1000px;
+	width: 100%;
+	background-color: #f2f5f7;
+}
+.content_item4 {
+	height: 1000px;
+	width: 100%;
+	//background-color: #f0f0f4;	
+}
+
+.content1 {
+	margin:0px auto;
+	width: 60%;
+}
+
+.item1_main_title {
+	margin: 0 auto;
+	font-size: 50px;
+	padding-top: 25%;
+	text-align: center;
+}
+
+.item1_via_title {
+	margin: 20px auto;
+	font-size: 25px;
+	text-align: center;
+}
+
+.item2_main_title {
+	margin: 0px auto;
+	padding-top: 30px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.bottom_arrow {
+    margin: 10px auto 50px auto;
+    background-image: url('../image/arrow.png');
+    width: 180px;
+    height: 100px;
+    background-repeat: round;
+}
+
+.bottom_arrow_down {
+    margin: 10px auto 50px auto;
+    background-image: url('../image/arrow2.png');
+    width: 180px;
+    height: 100px;
+    background-repeat: round;
+}
+
+.what_list {
+	list-style: none;
+}
+
+.what_list li {
+	float: left;
+	overflow: hidden;
+	width: 410px;
+	height: 280px;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+.what_elem {
+	margin: 0px auto;
+	width: 100%;
+	height: 230px;
+}
+
+.what_elem img{
+	margin: 10px auto;
+	display: block;
+	max-height: 230px;
+}
+
+.what_title {
+	font-size: 28px;
+	text-align: center;
+}
+
+.main_content {
+	margin: 20px auto;
+	width: 80%;
+	height: 680px;
+}
+
+.content_left {
+	height: 100%;
+	display: inline-block;
+	margin-left: 250px;
+	//border: solid 1px black;
+}
+
+.content_right {
+	height: 100%;
+	display: inline-block;
+	//border: solid 1px black;
+	margin-right: 250px;
+	float: right;
+	width: 25%;
+}
+
+.content_right * {
+	margin-top: 40px;
+}
+
+.content_right li {
+	margin-top: 20px;
+	font-size: 18px;
+}
+
+
+.content_list {
+	list-style: none;
+}
+
+.content_list li {
+	float: left;
+	width: 400px;
+	height: 600px;
+	margin-left: 40px;
+	overflow: hidden;
+}
+
+.content_pic {
+	width:400px;
+	height: 600px;
+	overflow: hidden;
+}
+
+.content_pic img {
+	width: 350px;
+	height: 610px;
+}
+
+
+#pic1 {
+	display: block;
+	margin: 0px auto;
+}
